@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark only">
+  <meta name="supported-color-schemes" content="dark only">
+  <title>MicroCraft - The Ultimate Summer of Building</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style>
+    :root {
+      color-scheme: dark only;
+      supported-color-schemes: dark only;
+    }
+    
+    /* Perfect CSS resets for email clients */
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      background-color: #0D0B14;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    img {
+      border: 0;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+    table {
+      border-collapse: collapse !important;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    td {
+      mso-line-height-rule: exactly;
+    }
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+    
+    .logo-light {
+      display: none;
+    }
+
+    .sponsor-logo-cell {
+      padding: 12px 20px;
+      vertical-align: middle;
+    }
+
+    .sponsor-logo {
+      height: auto;
+      max-width: 190px;
+    }
+
+    .social-link {
+      color: #A19DB8;
+      display: inline-block;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 18px;
+      padding: 0 10px;
+      text-decoration: none;
+    }
+    
+    /* Dark Mode Overrides (Default is Light Mode) */
+    @media (prefers-color-scheme: dark) {
+      body, .email-wrapper {
+        background-color: #0D0B14 !important;
+      }
+      .email-container {
+        background-color: #0D0B14 !important;
+        border-color: #2B2544 !important;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5) !important;
+      }
+      .text-title {
+        color: #FFFFFF !important;
+      }
+      .text-subtitle {
+        color: #60A5FA !important;
+      }
+      .text-body {
+        color: #A19DB8 !important;
+      }
+      .stats-card {
+        background-color: #120E1E !important;
+        border-color: #2B2544 !important;
+        box-shadow: 0 0 15px rgba(59, 130, 246, 0.05) !important;
+      }
+      .tracks-card {
+        background-color: #120E1E !important;
+        border-color: #2B2544 !important;
+        box-shadow: 0 0 15px rgba(236, 72, 153, 0.05) !important;
+      }
+      .btn-primary {
+        background-color: #7D3266 !important;
+        color: #FFFFFF !important;
+      }
+      .status-label {
+        color: #60A5FA !important;
+      }
+      .hr-divider {
+        border-color: #2B2544 !important;
+      }
+      .footer-text, .social-link {
+        color: #A19DB8 !important;
+      }
+      .email-footer {
+        background-color: #0A0810 !important;
+        border-color: #1C182A !important;
+      }
+      .logo-light {
+        display: block !important;
+      }
+      .logo-dark {
+        display: none !important;
+      }
+      .sponsor-table {
+        background: linear-gradient(#EDEAF6, #EDEAF6) !important;
+        background-color: #EDEAF6 !important;
+        border-color: #D6D1EB !important;
+      }
+    }
+
+    /* Responsive styles */
+    @media screen and (max-width: 600px) {
+      .email-wrapper {
+        width: 100% !important;
+      }
+
+      .email-wrapper > tbody > tr > td {
+        padding: 10px 0 !important;
+      }
+
+      .email-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+      }
+
+      .content-padding {
+        padding: 24px 16px !important;
+      }
+
+      .title-font {
+        font-size: 26px !important;
+        line-height: 32px !important;
+      }
+
+      .col-split {
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box;
+      }
+
+      .col-spacer {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+      }
+
+      .sponsor-logo-cell {
+        display: block !important;
+        padding: 10px 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+      }
+
+      .sponsor-logo {
+        max-width: 160px !important;
+        margin: 0 auto !important;
+      }
+
+      .email-footer {
+        padding: 24px 16px !important;
+      }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; width: 100% !important; background-color: #0D0B14;">
+  <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all; font-size: 1px; line-height: 1px; color: #0D0B14; opacity: 0;">
+    Join MicroCraft by MIC: 10 workshops, 5 tracks, 2 hackathons, certified by Gemini & HackerRank.
+  </div>
+  <table class="email-wrapper" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color: #0D0B14; table-layout: fixed;">
+    <tr>
+      <td align="center" style="padding: 20px 10px;">
+        <!--[if mso]>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600px;">
+        <tr>
+        <td>
+        <![endif]-->
+        <table class="email-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="max-width: 600px; background-color: #0D0B14; border: 1px solid #2B2544; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 30px rgba(26, 22, 43, 0.12), 0 0 25px rgba(99, 40, 81, 0.2);">
+          
+          <!-- BRAND HEADER ACCENT (NEON GRADIENT LINE) -->
+          <tr>
+            <td height="4" style="font-size: 1px; line-height: 1px; background-color: #EC4899; background: linear-gradient(90deg, #F97316 0%, #EAB308 25%, #22C55E 50%, #3B82F6 75%, #EC4899 100%);">
+              &nbsp;
+            </td>
+          </tr>
+
+          <!-- HEADER / LOGO SECTION -->
+          <tr>
+            <td align="center" style="padding: 0;">
+              <img src="banner.png" alt="Microcraft - The Summer of Building" width="600" style="display: block; width: 100%; max-width: 600px; height: auto; border: 0; outline: none; text-decoration: none;">
+            </td>
+          </tr>
+
+          <!-- GLOWING DIVIDER -->
+          <tr>
+            <td align="center" style="padding: 0 32px;">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                <tr>
+                  <td class="hr-divider" height="1" style="background-color: #2B2544; font-size: 1px; line-height: 1px;">
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- MAIN CONTENT SECTION -->
+          <tr>
+            <td class="content-padding" style="padding: 32px 32px 40px 32px;">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                
+                <!-- Status Label & Main Greeting -->
+                <tr>
+                  <td style="padding-bottom: 16px;">
+                    <span class="status-label" style="font-family: 'Courier New', Courier, monospace; font-size: 12px; font-weight: 700; color: #60A5FA; letter-spacing: 2px; text-transform: uppercase;">
+                      &gt; STATUS: REGISTRATION OPEN
+                    </span>
+                    <h2 class="text-title title-font" style="margin: 8px 0 0 0; font-family: system-ui, sans-serif; font-size: 24px; font-weight: 800; color: #FFFFFF; line-height: 30px;">
+                      Ready to build what matters?
+                    </h2>
+                  </td>
+                </tr>
+
+                <!-- Introduction Hook -->
+                <tr>
+                  <td style="padding-bottom: 24px;">
+                    <p class="text-body" style="margin: 0; font-family: system-ui, sans-serif; font-size: 15px; line-height: 24px; color: #A19DB8;">
+                      Every once in a while, a program comes along that completely redefines how you spend your free time. This is it. <img src="https://img.icons8.com/ios-glyphs/30/7C7699/sparkles.png" width="16" height="16" alt="✨" style="display: inline-block; vertical-align: middle; margin-left: 4px; margin-right: 4px; border: 0;"> 
+                    </p>
+                    <p class="text-body" style="margin: 12px 0 0 0; font-family: system-ui, sans-serif; font-size: 15px; line-height: 24px; color: #A19DB8;">
+                      Microsoft Innovations Club presents <strong style="color: #FFFFFF;">MicroCraft: The Summer of Building</strong>. Whether you are a student exploring tech tracks, a member of a community, or a college builder, this is your arena to convert knowledge into functional code. <img src="https://img.icons8.com/ios-glyphs/30/7C7699/rocket.png" width="16" height="16" alt="🚀" style="display: inline-block; vertical-align: middle; margin-left: 4px; margin-right: 4px; border: 0;">
+                    </p>
+                  </td>
+                </tr>
+
+                <!-- GRID / STATS SECTION (10 workshops, 5 domains, 2 hackathons, 1 summer) -->
+                <tr>
+                  <td style="padding-bottom: 24px;">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <!-- Stat 1 -->
+                        <td class="col-split" width="48%" valign="top" style="padding-bottom: 16px;">
+                          <table class="stats-card" width="100%" border="0" cellpadding="16" cellspacing="0" style="background-color: #120E1E; border: 1px solid #2B2544; border-radius: 12px; text-align: center;">
+                            <tr>
+                              <td>
+                                <div style="font-family: system-ui, sans-serif; font-size: 32px; font-weight: 800; color: #22C55E;">2000+</div>
+                                <div style="font-family: system-ui, sans-serif; font-size: 11px; color: #A19DB8; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; margin-top: 4px;">Registrations</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td class="col-spacer" width="4%" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+                        <!-- Stat 2 -->
+                        <td class="col-split" width="48%" valign="top" style="padding-bottom: 16px;">
+                          <table class="stats-card" width="100%" border="0" cellpadding="16" cellspacing="0" style="background-color: #120E1E; border: 1px solid #2B2544; border-radius: 12px; text-align: center;">
+                            <tr>
+                              <td>
+                                <div style="font-family: system-ui, sans-serif; font-size: 32px; font-weight: 800; color: #60A5FA;">10</div>
+                                <div style="font-family: system-ui, sans-serif; font-size: 11px; color: #A19DB8; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; margin-top: 4px;">Workshops</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <!-- Stat 3 -->
+                        <td class="col-split" width="48%" valign="top" style="padding-bottom: 16px;">
+                          <table class="stats-card" width="100%" border="0" cellpadding="16" cellspacing="0" style="background-color: #120E1E; border: 1px solid #2B2544; border-radius: 12px; text-align: center;">
+                            <tr>
+                              <td>
+                                <div style="font-family: system-ui, sans-serif; font-size: 32px; font-weight: 800; color: #EC4899;">5</div>
+                                <div style="font-family: system-ui, sans-serif; font-size: 11px; color: #A19DB8; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; margin-top: 4px;">Tech Tracks</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td class="col-spacer" width="4%" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+                        <!-- Stat 4 -->
+                        <td class="col-split" width="48%" valign="top" style="padding-bottom: 16px;">
+                          <table class="stats-card" width="100%" border="0" cellpadding="16" cellspacing="0" style="background-color: #120E1E; border: 1px solid #2B2544; border-radius: 12px; text-align: center;">
+                            <tr>
+                              <td>
+                                <div style="font-family: system-ui, sans-serif; font-size: 32px; font-weight: 800; color: #EAB308;">2</div>
+                                <div style="font-family: system-ui, sans-serif; font-size: 11px; color: #A19DB8; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; margin-top: 4px;">Hackathons</div>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- TECH PATHS CARD SECTION -->
+                <tr>
+                  <td style="padding-bottom: 32px;">
+                    <table class="tracks-card" width="100%" border="0" cellpadding="20" cellspacing="0" role="presentation" style="background-color: #120E1E; border: 1px dashed #2B2544; border-radius: 12px;">
+                      <tr>
+                        <td style="padding: 0;">
+                          <h3 class="text-title" style="margin: 0 0 16px 0; font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: bold; color: #FFFFFF; letter-spacing: 1.5px; text-transform: uppercase;">
+                            &gt;_ EXPLORE THE TRAJECTORIES
+                          </h3>
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                            <!-- Track 1 -->
+                            <tr>
+                              <td valign="top" width="28" style="font-family: system-ui, sans-serif; font-size: 16px; line-height: 22px;">
+                                🤖
+                              </td>
+                              <td valign="top" style="font-family: system-ui, sans-serif; font-size: 14px; color: #A19DB8; line-height: 22px; padding-bottom: 12px;">
+                                <strong style="color: #FFFFFF;">AI &amp; Machine Learning:</strong> Build no-code AI integrations like the **n8n Mail Bot** with Gemini API, and explore word embeddings in the **WikiRace AI** challenge.
+                              </td>
+                            </tr>
+                            <!-- Track 2 -->
+                            <tr>
+                              <td valign="top" width="28" style="font-family: system-ui, sans-serif; font-size: 16px; line-height: 22px;">
+                                🛡️
+                              </td>
+                              <td valign="top" style="font-family: system-ui, sans-serif; font-size: 14px; color: #A19DB8; line-height: 22px; padding-bottom: 12px;">
+                                <strong style="color: #FFFFFF;">Cybersecurity:</strong> Dive into threat modeling in the **Ethical Hacking Lab** and practice defensive security thinking in **Flag It! Hack &amp; Win**.
+                              </td>
+                            </tr>
+                            <!-- Track 3 -->
+                            <tr>
+                              <td valign="top" width="28" style="font-family: system-ui, sans-serif; font-size: 16px; line-height: 22px;">
+                                🎨
+                              </td>
+                              <td valign="top" style="font-family: system-ui, sans-serif; font-size: 14px; color: #A19DB8; line-height: 22px; padding-bottom: 12px;">
+                                <strong style="color: #FFFFFF;">UI/UX Design:</strong> Recreate interfaces applying HCI principles in **Design.Break.Fix** and use Google Stitch in the **AI UI Sprint**.
+                              </td>
+                            </tr>
+                            <!-- Track 4 -->
+                            <tr>
+                              <td valign="top" width="28" style="font-family: system-ui, sans-serif; font-size: 16px; line-height: 22px;">
+                                💻
+                              </td>
+                              <td valign="top" style="font-family: system-ui, sans-serif; font-size: 14px; color: #A19DB8; line-height: 22px; padding-bottom: 12px;">
+                                <strong style="color: #FFFFFF;">Software Development:</strong> Code a custom Sepolia ERC-20 smart contract in **Build Your Crypto** and master production-ready full-stack patterns in **Full-Stack Blitz**.
+                              </td>
+                            </tr>
+                            <!-- Track 5 -->
+                            <tr>
+                              <td valign="top" width="28" style="font-family: system-ui, sans-serif; font-size: 16px; line-height: 22px;">
+                                🧠
+                              </td>
+                              <td valign="top" style="font-family: system-ui, sans-serif; font-size: 14px; color: #A19DB8; line-height: 22px; padding-bottom: 12px;">
+                                <strong style="color: #FFFFFF;">Competitive Programming:</strong> Compete in algorithmic debugging in **Bug Hunt** and learn optimization structures in **Algo Sprint**.
+                              </td>
+                            </tr>
+                            <!-- Track 6 -->
+                            <tr>
+                              <td valign="top" width="28" style="font-family: system-ui, sans-serif; font-size: 16px; line-height: 22px;">
+                                🏆
+                              </td>
+                              <td valign="top" style="font-family: system-ui, sans-serif; font-size: 14px; color: #A19DB8; line-height: 22px;">
+                                <strong style="color: #FFFFFF;">Hackathons:</strong> Design, ship, and demo working prototypes in the 24-hour **Vibeathon** sprint and the final **Arcnight** challenge.
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- HIGHLIGHTS / WHY JOIN -->
+                <tr>
+                  <td style="padding-bottom: 28px;">
+                    <p class="text-body" style="margin: 0 0 16px 0; font-family: system-ui, sans-serif; font-size: 15px; line-height: 24px; color: #A19DB8;">
+                      Why participate in MicroCraft?
+                    </p>
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                      <!-- Highlight 1 -->
+                      <tr>
+                        <td style="padding-bottom: 12px;">
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                            <tr>
+                              <td valign="top" width="24" style="color: #22C55E; font-size: 16px; line-height: 20px;">✓</td>
+                              <td style="font-family: system-ui, sans-serif; font-size: 14px; line-height: 20px; color: #A19DB8; padding-left: 8px;">
+                                <strong style="color: #FFFFFF;">Fully Sponsored:</strong> Absolutely free of cost. Access top-tier materials without financial constraints.
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- Highlight 2 -->
+                      <tr>
+                        <td style="padding-bottom: 12px;">
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                            <tr>
+                              <td valign="top" width="24" style="color: #22C55E; font-size: 16px; line-height: 20px;">✓</td>
+                              <td style="font-family: system-ui, sans-serif; font-size: 14px; line-height: 20px; color: #A19DB8; padding-left: 8px;">
+                                <strong style="color: #FFFFFF;">Official Endorsement:</strong> Validate your achievements with certifications powered directly by <strong style="color: #FFFFFF;">Google Gemini</strong> and <strong style="color: #FFFFFF;">HackerRank</strong>.
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- Highlight 3 -->
+                      <tr>
+                        <td style="padding-bottom: 0px;">
+                          <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                            <tr>
+                              <td valign="top" width="24" style="color: #22C55E; font-size: 16px; line-height: 20px;">✓</td>
+                              <td style="font-family: system-ui, sans-serif; font-size: 14px; line-height: 20px; color: #A19DB8; padding-left: 8px;">
+                                <strong style="color: #FFFFFF;">Applied Engineering:</strong> Typical courses instruct you in theory. MicroCraft pushes you to construct actual, working projects.
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Motivational CTA Text -->
+                <tr>
+                  <td style="padding-bottom: 24px;">
+                    <p class="text-body" style="margin: 0; font-family: system-ui, sans-serif; font-size: 15px; line-height: 24px; color: #A19DB8;">
+                      You have the time. You have the connection. The tools are ready. <img src="https://img.icons8.com/ios-glyphs/30/7C7699/laptop.png" width="16" height="16" alt="💻" style="display: inline-block; vertical-align: middle; margin-left: 4px; margin-right: 4px; border: 0;"> The only question is: what will you build?
+                    </p>
+                    <p class="text-body" style="margin: 12px 0 0 0; font-family: system-ui, sans-serif; font-size: 15px; line-height: 24px; color: #FFFFFF; font-weight: 600;">
+                      It is time to MicroCraft yourself!
+                    </p>
+                  </td>
+                </tr>
+
+                <!-- STACKED CTA BUTTONS -->
+                <tr>
+                  <td align="center" style="padding-bottom: 20px;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td align="center" class="btn-primary" style="background-color: rgb(99, 40, 81); border-radius: 30px; box-shadow: 0 4px 14px rgba(99, 40, 81, 0.4);">
+                          <a href="{{REGISTRATION_LINK}}" target="_blank" style="display: inline-block; padding: 14px 32px; font-family: system-ui, sans-serif; font-size: 15px; font-weight: 700; color: #FFFFFF; text-decoration: none; letter-spacing: 0.5px;">
+                            Register Now
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-bottom: 32px;">
+                    <table border="0" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td align="center" style="border: 1px solid #2B2544; border-radius: 30px; background-color: #120E1E;">
+                          <a href="{{COMMUNITY_LINK}}" target="_blank" style="display: inline-block; padding: 10px 24px; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #60A5FA; text-decoration: none; letter-spacing: 0.5px;">
+                            Join WhatsApp Community
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- SPONSORS SECTION -->
+                <tr>
+                  <td align="center" style="padding-top: 24px; padding-bottom: 32px; border-top: 1px solid #2B2544;" class="hr-divider">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                      <tr>
+                        <td align="center" style="padding-bottom: 16px;">
+                          <span style="font-family: 'Courier New', Courier, monospace; font-size: 11px; font-weight: 700; color: #A19DB8; letter-spacing: 2.5px; text-transform: uppercase; display: block;">
+                            &gt;_ POWERED BY
+                          </span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin: 0 auto; width: auto;">
+                            <tr>
+                              <!-- Gemini Logo -->
+                              <td class="sponsor-logo-cell" align="center" style="padding: 16px 24px; vertical-align: middle;">
+                                <a href="https://deepmind.google/technologies/gemini/" target="_blank" style="text-decoration: none;">
+                                  <img class="sponsor-logo" src="gemini_logo_light.png" alt="Google Gemini" width="157" height="22" style="display: block; width: 157px; max-width: 157px; height: auto; border: 0; outline: none; text-decoration: none;">
+                                </a>
+                              </td>
+                              <!-- HackerRank Logo -->
+                              <td class="sponsor-logo-cell" align="center" style="padding: 16px 24px; vertical-align: middle;">
+                                <a href="https://www.hackerrank.com" target="_blank" style="text-decoration: none;">
+                                  <img class="sponsor-logo" src="hackerrank_logo_light.png" alt="HackerRank" width="210" height="22" style="display: block; width: 210px; max-width: 210px; height: auto; border: 0; outline: none; text-decoration: none;">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Outro -->
+                <tr>
+                  <td style="padding-top: 16px; border-top: 1px solid #2B2544;" class="hr-divider">
+                    <p class="text-body" style="margin: 0; font-family: system-ui, sans-serif; font-size: 14px; line-height: 22px; color: #A19DB8;">
+                      For details on schedule and tracks, visit the registration portal. Join our community chat to meet other members and ask questions. <img src="https://img.icons8.com/ios-glyphs/30/7C7699/chat.png" width="16" height="16" alt="💬" style="display: inline-block; vertical-align: middle; margin-left: 4px; margin-right: 4px; border: 0;">
+                    </p>
+                    <p class="text-body text-title" style="margin: 16px 0 0 0; font-family: system-ui, sans-serif; font-size: 14px; font-weight: 600; color: #FFFFFF;">
+                      Let's build together <img src="https://img.icons8.com/ios-glyphs/30/7C7699/sparkles.png" width="16" height="16" alt="✨" style="display: inline-block; vertical-align: middle; margin-left: 4px; margin-right: 4px; border: 0;">,<br>
+                      Microsoft Innovations Club
+                    </p>
+                  </td>
+                </tr>
+
+              </table>
+            </td>
+          </tr>
+
+          <!-- FOOTER -->
+          <tr>
+            <td align="center" class="email-footer" style="padding: 24px 32px; background-color: #0A0810; border-top: 1px solid #1C182A;">
+              <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
+                <tr>
+                  <td align="center" style="padding-bottom: 16px;">
+                    <a class="social-link" href="https://www.instagram.com/microsoft.innovations.vitc" target="_blank" style="color: #A19DB8; font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; line-height: 18px; padding: 0 10px; text-decoration: none; display: inline-block;">
+                      <img src="https://img.icons8.com/ios-glyphs/30/7C7699/instagram-new.png" width="18" height="18" alt="Instagram" style="display: inline-block; vertical-align: middle; border: 0;">
+                    </a>
+                    <a class="social-link" href="https://www.linkedin.com/company/microsoft-innovations-club-vitc/" target="_blank" style="color: #A19DB8; font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; line-height: 18px; padding: 0 10px; text-decoration: none; display: inline-block;">
+                      <img src="https://img.icons8.com/ios-glyphs/30/7C7699/linkedin.png" width="18" height="18" alt="LinkedIn" style="display: inline-block; vertical-align: middle; border: 0;">
+                    </a>
+                    <a class="social-link" href="https://www.microsoftinnovations.club" target="_blank" style="color: #A19DB8; font-family: system-ui, sans-serif; font-size: 12px; font-weight: 600; line-height: 18px; padding: 0 10px; text-decoration: none; display: inline-block;">
+                      <img src="https://img.icons8.com/ios-glyphs/30/7C7699/domain.png" width="18" height="18" alt="Website" style="display: inline-block; vertical-align: middle; border: 0;">
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" class="footer-text" style="font-family: system-ui, sans-serif; font-size: 12px; line-height: 18px; color: #A19DB8;">
+                    This is an informational campaign for MicroCraft.
+                    You are receiving this because you connected with Microsoft Innovations Club, VIT Chennai.
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" class="footer-text" style="font-family: system-ui, sans-serif; font-size: 12px; line-height: 18px; color: #A19DB8; padding-top: 6px;">
+                    &copy; 2026 MIC. All rights reserved.
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if mso]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
